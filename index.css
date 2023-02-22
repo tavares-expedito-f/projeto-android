@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('../p10/fontes/idroid.otf') format(opentype);
+    src: url('fontes/idroid.otf')format(opentype);
     font-weight: normal;
 }
 
@@ -95,8 +95,7 @@ main h2{
     color: var(--cor4);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(var
-    --cor1,transparent);
+    background-image: linear-gradient( to right,var(--cor1),transparent);
     text-indent: 8px;
 }
 main p{
@@ -133,10 +132,10 @@ div.video{
     background-color: var(--cor4);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 70%;
+    padding-bottom: 60%;
     position: relative;
 }
-div.video > iframe{
+div.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -177,4 +176,3 @@ footer a:hover{
     text-decoration: underline;
 color: var(--cor1);
 }
-
