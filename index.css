@@ -32,7 +32,7 @@ a.externo::after{
     content: '\00A0\1517';
 }
 header{
-    background-image:linear-gradient(to bottom,var(--cor3),var(--cor4),var(--cor5));
+    background-image: linear-gradient(var(--cor3),var(--cor5));
     min-height: 15px;
     text-align: center;
     padding-top: 40px;
@@ -130,10 +130,10 @@ main img.pequena{
     margin: auto;
 }
 div.video{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 58%;
+    padding-bottom: 70%;
     position: relative;
 }
 div.video > iframe{
